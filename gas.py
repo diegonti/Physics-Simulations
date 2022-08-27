@@ -1,3 +1,8 @@
+###################################################
+# Gas movement following Lennard-Jones Potential. #
+###################################################
+
+
 import pygame
 import numpy as np
 
