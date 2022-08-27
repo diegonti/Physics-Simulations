@@ -38,7 +38,7 @@ screen = pygame.display.set_mode((800,800)) #Crea superficie de pantalla
 clock = pygame.time.Clock() #Crea reloj/tiempo
 space = pymunk.Space() #Creamos espacio (universo)
 space.gravity = (0,250) #añadimos la fisica que queremos (x,y)(numeros arbitrarios)
-apple_surface = pygame.image.load("C:/DOCUMENTOS DIEGO/DOWNLOADS/VS Images/apple_red.png") 
+apple_surface = pygame.image.load("apple_red.png") 
     #Cargamos imagen como superficie. Dirección completa con \\ o un solo /. 
 
 apples = []
